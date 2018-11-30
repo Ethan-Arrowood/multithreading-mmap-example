@@ -1,0 +1,14 @@
+{
+  "name": "multithread-mmap",
+  "version": "1.0.0",
+  "description": "Example of multithreading and memory mapping by swapping two 64 byte records in a data file",
+  "main": "mainThread.js",
+  "scripts": {
+    "start": "node --experimental-worker mainThread.js"
+  },
+  "author": "Ethan Arrowood",
+  "license": "MIT",
+  "dependencies": {
+    "mmap-io": "^1.0.0"
+  }
+}
